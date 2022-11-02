@@ -75,13 +75,27 @@
                 font-size: 26px;
                 z-index: 1;
             }
+            
+            .m {
+                display: none;
+            }
+            .menu:hover .m {
+                display: block;
+            }
         </style>
     </head>
     <body>
         <div class="header">
             Кристина Смирнова
         </div>
-
+        
+        <div class="menu">
+        <div class="m" style="display: block;">Каталог</div>
+        <div class="m">Товары</div>
+        <div class="m">Картинки</div>
+        <div class="m">Новости</div>
+        </div>
+        
         <div class="content" style="margin: 50px;">
             <h1>Inline</h1>
             <div class="a">block 1</div>
