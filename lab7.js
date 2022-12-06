@@ -42,3 +42,20 @@ function makeStairs() {
         steps[i].innerHTML = 'Блок номер ' + Number(i+1);
     }
 }
+function makeSnowflakes() {
+    let snowflake = document.querySelector('.snowflakes');
+    let stepsCount = 20;
+    for(let i = 0; i<stepsCount; i++) {
+        snowflake.innerHTML += '<img class="flakes" src="pict17.png">';
+    }
+    let flakes = document.querySelectorAll('.flakes');
+    for(let i=0; i<flakes.length; i++) {
+        flakes[i].style.left = Math.random()*window.innerWidth + 'px';
+        flakes[i].style.top = Math.random()*window.innerHeight + 'px';
+        flakes[i].style.width = Math.random()*100 + 'px';
+    }
+}
+function AllFunctions () {
+    makeStairs();
+    makeSnowflakes();
+}
