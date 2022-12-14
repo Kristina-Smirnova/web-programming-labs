@@ -32,7 +32,17 @@ body {
     color:indigo;
     padding-left: 20px;
 }
-#today {
-    padding-left: 20px;
+.date {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 18px;
     font-weight: bold;
+    color:cornflowerblue;
+    padding-left: 20px;
+}
+#result {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 18px;
+    font-weight: bold;
+    color:chocolate;
+    padding-left: 20px;
 }
