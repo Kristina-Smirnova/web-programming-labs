@@ -60,3 +60,15 @@ body {
 .button {
     padding-left: 20px;
 }
+.days {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 18px;
+    font-weight: bold;
+    color:cornflowerblue;
+    padding-left: 20px;
+}
+#resdays {
+    padding-left: 20px;
+    font-weight: bold;
+    color:chocolate;
+}
